@@ -160,6 +160,12 @@ main{
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+.card:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 /* section play styles */
 .play{
     display: flex;
@@ -232,9 +238,11 @@ main{
     margin-bottom: 100px;
     cursor: pointer;
 }
-.icon-type:hover, .icon-type-two:hover{
+.icon-type:hover, .icon-type-two:hover, .icon-title:hover{
     border: 2px solid #f5ebeb;
+    color: #b32560;
 }
+
 /* footer styles */
 footer{
     background-color: #0B0223;
