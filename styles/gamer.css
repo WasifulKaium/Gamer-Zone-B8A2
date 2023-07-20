@@ -77,6 +77,9 @@ nav img{
     padding-left: 30px;
     align-items: center;
 }
+.nav-box img{
+    cursor: pointer;
+}
 .banner{
     background-image: url(Group 14.png);
     display: flex;
@@ -120,6 +123,9 @@ nav img{
     border: none;
 }
 
+.btn-primary:hover, .btn-secondary:hover{
+    opacity: 0.5;
+}
 /* main styles */
 main{
     max-width: 1440px;
@@ -239,8 +245,9 @@ main{
     cursor: pointer;
 }
 .icon-type:hover, .icon-type-two:hover, .icon-title:hover{
-    border: 2px solid #f5ebeb;
-    color: #b32560;
+    border: 3px solid #aaa2a2;
+    color: #aa1050;
+    opacity: 0.5;
 }
 
 /* footer styles */
@@ -282,7 +289,9 @@ footer{
 .foot-icon{
     margin-bottom: 50px;
     cursor: pointer;
-
+}
+.foot-icon img:hover{
+    opacity: 0.5;
 }
 .settings{
     display: flex;
